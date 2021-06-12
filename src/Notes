@@ -1,0 +1,70 @@
+<<<<<<<<<<>>>>>>>>>> MAXR <<<<<<<<<<>>>>>>>>>>
+Current price of MAXR: 39.39
+buy percent: 0.999
+sell percent: 1.001
+Sell 1 MAXR for 39.38 per share
+SELL MAXR
+MAXR share count: -1
+Daily Trade Cash Value: 39.38
+<<<<<<<<<<>>>>>>>>>> MAXR <<<<<<<<<<>>>>>>>>>>
+Grabbing new access token...
+Current price of MAXR: 39.38
+buy percent: 0.999
+sell percent: 1.0054999999999998
+Sell 2 MAXR for 39.370000000000005 per share
+SELL MAXR
+
+###########TDA API FAILURE#########
+{
+  "error" : "Orders above $1 can be entered in no more than 2 decimals; orders below $1 can be entered in no more than 4 decimals."
+
+
+{'AMC': 
+{'assetType': 'EQUITY', 
+'assetMainType': 'EQUITY', 
+'cusip': '00165C104', 
+'symbol': 'AMC', 
+'description': 'AMC Entertainment Holdings, Inc. Class A Common Stock', 
+'bidPrice': 12.8, 
+'bidSize': 6700, 
+'bidId': 'P', 
+'askPrice': 12.81, 
+'askSize': 12100, 
+'askId': 'P', 
+'lastPrice': 12.8, 
+'lastSize': 0, 
+'lastId': 'D', 
+'openPrice': 13.31, 
+'highPrice': 14.335, 
+'lowPrice': 12.57, 
+'bidTick': ' ', 
+'closePrice': 12.98, 
+'netChange': -0.18, 
+'totalVolume': 207589934, 
+'quoteTimeInLong': 1621036794807, 
+'tradeTimeInLong': 1621036798997, 
+'mark': 12.98, 
+'exchange': 'n', 
+'exchangeName': 'NYSE', 
+'marginable': True, 
+'shortable': True, 
+'volatility': 0.042, 
+'digits': 2, 
+'52WkHigh': 20.36, 
+'52WkLow': 1.91, 
+'nAV': 0.0, 
+'peRatio': 0.0, 
+'divAmount': 0.0, 
+'divYield': 0.0, 
+'divDate': '2020-03-02 00:00:00.000', 
+'securityStatus': 'Normal', 
+'regularMarketLastPrice': 12.98, 
+'regularMarketLastSize': 3665, 
+'regularMarketNetChange': 0.0, 
+'regularMarketTradeTimeInLong': 1621033200003, 
+'netPercentChangeInDouble': -1.3867, 
+'markChangeInDouble': 0.0, 
+'markPercentChangeInDouble': 0.0, 
+'regularMarketPercentChangeInDouble': 0.0, 
+'delayed': False, 'realtimeEntitled': True}
+}
