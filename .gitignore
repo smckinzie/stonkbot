@@ -127,3 +127,40 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#temp files
+/AMC_count.py
+/AUY_count.py
+/BB_count.py
+/CLOV_count.py
+/CNR_count.py
+/EXK_count.py
+/GPL_count.py
+/HL_count.py
+/KOSS_count.py
+/NGD_count.py
+/NOK_count.py
+/NOK_state.py
+/PHX_count.py
+/PSLV_count.py
+/RFP_count.py
+/SD_count.py
+/SQFT_count.py
+/hodl_AMC_state.py
+/hodl_AUY_state.py
+/hodl_BB_state.py
+/hodl_CLOV_state.py
+/hodl_CNR_state.py
+/hodl_EXK_state.py
+/hodl_FTK_state.py
+/hodl_HL_state.py
+/hodl_KOSS_state.py
+/hodl_NGD_state.py
+/hodl_NOK_state.py
+/hodl_PHX_state.py
+/hodl_SD_state.py
+/hodl_SQFT_state.py
+/hodl_WEN_state.py
+/hodl_WKHS_state.py
+/slv_and_pslv_count.py
+CREDENTIALS_FILE
