@@ -1,0 +1,37 @@
+# For more information see the manual pages of crontab(5) and cron(8)
+# 
+# m h  dom mon dow   command
+
+#*/15 07-16 * * 1-5 export DISPLAY=:0 && /usr/bin/python3 /home/shawn/python/mvmouse.py
+33 4 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/buy_the_dip.py PHX Prod 1 2
+53 4 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/buy_the_dip.py GPL Prod 1 2
+37 4 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/buy_the_dip.py PSLV Prod 1 2
+30 4 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/buy_the_dip.py AUY Prod 1 2
+35 4 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/buy_the_dip.py NOK Prod 1 10
+50 4 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/buy_the_dip.py BB Prod 20 10
+40 4 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/buy_the_dip.py RFP Prod 1 2
+43 4 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/buy_the_dip.py EXK Prod 1 2
+47 4 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/buy_the_dip.py KOSS Prod 20 10
+55 4 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/buy_the_dip.py NGD Prod 1 2
+45 4 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/buy_the_dip.py HL Prod 1 2
+25 4 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/buy_the_dip.py SQFT Prod 1 6
+27 4 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/buy_the_dip.py CNR Prod 1 2
+13 4 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/buy_the_dip.py SD Prod 1 2
+33 4 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/buy_the_dip.py FTK Prod 1 2
+33 4 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/buy_the_dip.py WKHS Prod 10 10
+
+15 3 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/osolator_hodl.py HL Prod 13 7
+22 3 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/osolator_hodl.py EXK Prod 13 13
+17 3 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/osolator_hodl.py NOK Prod 31 23
+11 3 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/osolator_hodl.py PHX Prod 31 23
+21 3 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/osolator_hodl.py SD Prod 23 13
+19 3 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/osolator_hodl.py WKHS Prod 11 7
+9 3 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/osolator_hodl.py CNR Prod 13 7
+29 3 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/osolator_hodl.py AUY Prod 13 13
+28 3 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/osolator_hodl.py SQFT Prod 13 7
+#48 3 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/osolator_hodl.py BB Prod 7 7
+#35 3 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/osolator_hodl.py KOSS Prod 7 7
+40 3 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/osolator_hodl.py FTK Prod 13 7
+45 3 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/osolator_hodl.py NGD Prod 37 31
+
+48 5 * * 1-5 export DISPLAY=:0; konsole --hold --new-tab -e /usr/bin/python3 /home/shawn/TDAmeritrade/SLV_PSLV_RATIOTRADE.py Prod
