@@ -244,13 +244,3 @@ def get_ema(prices,smoothing=2):
     print(len(ema))
     return ema
 
-"""
-res_ema.append(prices[t] * k + res_ema[t-1] * (1 - k))
-EMA = Price(t) × k + EMA(y) × (1 − k)
-price = float(f'{price:.2f}')
-where:
-t = today
-y = yesterday
-N = number of days in EMA
-k = 2 ÷ (N + 1)
-"""
