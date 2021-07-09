@@ -3,7 +3,6 @@ import pprint as pp
 import time
 import random
 import sys
-import get_yahoo_historical
 import TDAPI
 import importlib
 from datetime import datetime
@@ -176,6 +175,7 @@ def main():
                     if is_prod == True:
                         TDAPI.sell_stock(TDSession,stonk,bid_price,sell_count)
                         inverse_buy_price = bid_price * 0.97
+                        inverse_buy_price = float(f'{bid_price:.2f}')
                         if sell_count == 1:
                             inverse_buy_count = 1
                         else:
