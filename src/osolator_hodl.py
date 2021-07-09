@@ -74,8 +74,8 @@ def main():
             print('###########TDA API FAILURE#########')
             print(e)
             print(i)
-            print('###########TDA API FAILURE#########')
             time.sleep(60)
+            print('###########TDA API FAILURE#########')
             pass
 
 ### Random Start Delay
@@ -118,6 +118,7 @@ def main():
             print('###########TDA API FAILURE#########')
             print(e)
             print(i)
+            time.sleep(60)
             print('###########TDA API FAILURE#########')
             pass
 
@@ -208,6 +209,7 @@ def main():
                 print('###########TDA API FAILURE#########')
                 print(e)
                 print(i)
+                time.sleep(60)
                 print('###########TDA API FAILURE#########')
                 pass
             time.sleep(loop_time)

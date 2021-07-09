@@ -122,6 +122,7 @@ def main():
             print('###########TDA API FAILURE#########')
             print(e)
             print(i)
+            time.sleep(60)
             print('###########TDA API FAILURE#########')
             pass
 
@@ -174,7 +175,7 @@ def main():
                     today_buy_threshold = 0.0 
                     if is_prod == True:
                         TDAPI.sell_stock(TDSession,stonk,bid_price,sell_count)
-                        inverse_buy_price = bid_price * 0.97
+                        inverse_buy_price = bid_price * 0.95
                         inverse_buy_price = float(f'{bid_price:.2f}')
                         if sell_count == 1:
                             inverse_buy_count = 1
@@ -199,6 +200,7 @@ def main():
                 print('###########TDA API FAILURE#########')
                 print(e)
                 print(i)
+                time.sleep(60)
                 print('###########TDA API FAILURE#########')
                 pass
         print('total buy percent: {}  total buy threshold: {}'.format(today_buy_threshold + buy_percent,total_buy_threshold))
