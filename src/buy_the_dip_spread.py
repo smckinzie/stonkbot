@@ -175,16 +175,16 @@ def main():
                     today_buy_threshold = 0.0 
                     if is_prod == True:
                         TDAPI.sell_stock(TDSession,stonk,bid_price,sell_count)
-                        inverse_buy_price = bid_price * 0.95
-                        inverse_buy_price = float(f'{bid_price:.2f}')
+                        inverse_buy_price = (bid_price * 0.95)
+                        inverse_buy_price = float(f'{inverse_buy_price:.2f}')
                         if sell_count == 1:
                             inverse_buy_count = 1
                         else:
                             inverse_buy_count = sell_count // 2
                         duration = 'DAY'
-                        time.sleep(10)
-                        TDAPI.buy_stock(TDSession,stonk,inverse_buy_price,inverse_buy_count,duration)
                         time.sleep(240)
+                        TDAPI.buy_stock(TDSession,stonk,inverse_buy_price,inverse_buy_count,duration)
+                    
                     sell_percent_multi *= 1.5
                     sell_percent += sell_percent_multi  
                     buy_percent = start_buy_percent
