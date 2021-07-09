@@ -80,7 +80,7 @@ def buy_stock(TDSession,stonk,price,buy_count):
             }
         ],
     }
-    TDSession.place_order(account='425345821',order=order_dict)
+    TDSession.place_order(account='XXXXXXXXX',order=order_dict)
 
 ### Sell Stock
 def sell_stock(TDSession,stonk,price,sell_count):
@@ -105,7 +105,7 @@ def sell_stock(TDSession,stonk,price,sell_count):
             }
         ],
     }
-    TDSession.place_order(account='425345821',order=order_dict)
+    TDSession.place_order(account='XXXXXXXXX',order=order_dict)
 
 ############################################################################
 ### Buy Stock via Stop Limit Order
@@ -132,7 +132,7 @@ def buy_stop_limit(TDSession,stonk,price,best_price,buy_count):
             }
         ],
     }
-    TDSession.place_order(account='425345821',order=order_dict)
+    TDSession.place_order(account='XXXXXXXXXX',order=order_dict)
 
 ### Sell Stock via Stop Limit Order
 def sell_stop_limit(TDSession,stonk,price,best_price,sell_count):
@@ -158,7 +158,7 @@ def sell_stop_limit(TDSession,stonk,price,best_price,sell_count):
             }
         ],
     }
-    TDSession.place_order(account='425345821',order=order_dict)
+    TDSession.place_order(account='XXXXXXXXXX',order=order_dict)
 
 
 ### Buy Stock via Trailing Stop Limit Order
@@ -186,7 +186,7 @@ def buy_trail_stop(TDSession,stonk,buy_count):
             }
         ],
     }
-    TDSession.place_order(account='425345821',order=order_dict)
+    TDSession.place_order(account='XXXXXXXXXX',order=order_dict)
 
 ### Sell Stock via Trailing Stop Limit Order
 def sell_trail_stop(TDSession,stonk,sell_count):
@@ -213,7 +213,7 @@ def sell_trail_stop(TDSession,stonk,sell_count):
             }
         ],
     }
-    TDSession.place_order(account='425345821',order=order_dict)
+    TDSession.place_order(account='XXXXXXXXXX',order=order_dict)
 
     ### Grab 5 Day Price List 
 def get_close_list(TDSession,stonk,period=5,frequency=30):
@@ -244,13 +244,3 @@ def get_ema(prices,smoothing=2):
     print(len(ema))
     return ema
 
-"""
-res_ema.append(prices[t] * k + res_ema[t-1] * (1 - k))
-EMA = Price(t) × k + EMA(y) × (1 − k)
-price = float(f'{price:.2f}')
-where:
-t = today
-y = yesterday
-N = number of days in EMA
-k = 2 ÷ (N + 1)
-"""
