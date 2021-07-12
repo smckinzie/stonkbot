@@ -6,7 +6,7 @@ import pandas as pd
 ### Create a new session
 def td_login():
     TDSession = TDClient(
-        client_id='5UXHQM8FAQHDXZI9GL8RIOF2RVXD8GCE',
+        client_id='XXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
         redirect_uri='https://127.0.0.1',
         credentials_path='/home/shawn/TDAmeritrade/CREDENTIALS_FILE'
     )
